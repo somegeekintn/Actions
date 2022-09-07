@@ -19,6 +19,7 @@
 		C93FEFE628C8DF0E00D3E656 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C93FEFE828C8DF1200D3E656 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C93FEFEB28C8DF1200D3E656 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C93FEFF428C8F94400D3E656 /* ios.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = ios.yml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +36,7 @@
 		C93FEFD828C8DF0E00D3E656 = {
 			isa = PBXGroup;
 			children = (
+				C93FEFF228C8F94400D3E656 /* workflows */,
 				C93FEFE328C8DF0E00D3E656 /* Actions */,
 				C93FEFE228C8DF0E00D3E656 /* Products */,
 			);
@@ -65,6 +67,15 @@
 				C93FEFEB28C8DF1200D3E656 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C93FEFF228C8F94400D3E656 /* workflows */ = {
+			isa = PBXGroup;
+			children = (
+				C93FEFF428C8F94400D3E656 /* ios.yml */,
+			);
+			name = workflows;
+			path = .github/workflows;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
