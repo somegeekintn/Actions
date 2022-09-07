@@ -17,7 +17,7 @@ jobs:
       - name: Apps
         run: ls /Applications
       - name: Force Xcode 13
-        run: sudo xcode-select -switch /Applications/Xcode_13.4.app
+        run: sudo xcode-select -switch /Applications/Xcode_13.2.1.app
       - name: Set Default Scheme
         run: |
           scheme_list=$(xcodebuild -list -json | tr -d "\n")
